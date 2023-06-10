@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGİN</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+    <div class="login_container">
+        <h2>LOGİN</h2>
+        <form onsubmit="logSubmit(event)">
+            <div class="log_reg_container">
+                <label for="l">Email</label>
+                <input required class="log_email" id="l" type="email">
+            </div>
+            <div class="log_reg_container">
+                <label for="o">Password</label>
+                <input required class="log_psw" id="o" type="password">
+            </div>
+            <a href="">Forgot password</a>
+            <p class="log_err"></p>
+            <div class="login_btns go_login_parent">
+                <button class="login_btn">Login</button>
+                
+            </div>
+            
+        </form>
+
+        <div class="login_btns go_login_parent">
+            <button class="register_btn">Sign up</button>
+            
+        </div>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="./login.js"></script>
+</body>
+</html>

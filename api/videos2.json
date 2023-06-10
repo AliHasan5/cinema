@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Code",
+        "video": "../videos/video.S.P.mp4"
+    },
+    {
+        "id": 2,
+        "title": "YouTube",
+        "video": "../videos/video1.2.1.mp4"
+    },
+    {
+        "id": 3,
+        "title": "Animation",
+        "video": "../videos/video1.3.mp4"
+    },
+    {
+        "id": 4,
+        "title": "Animation",
+        "video": "../videos/video1.4.mp4"
+    }
+]

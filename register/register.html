@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="login_container">
+        <h2>SIGN UP</h2>
+        <form onsubmit="regSubmit(event)">
+            <div class="log_reg_container">
+                <label for="n">Name</label>
+                <input required class="reg_name" id="n" type="text">
+            </div>
+            <div class="log_reg_container">
+                <label for="e">Email</label>
+                <input required class="reg_email" id="e" type="email">
+            </div>
+            <div class="log_reg_container">
+                <label for="p">Password</label>
+                <input required class="reg_psw" id="p" type="password">
+            </div>
+            
+            <div class="log_reg_container">
+                <label for="o">Re-type Password</label>
+                <input required class="reg_reType_psw" id="o" type="password">
+            </div>
+            <p class="reg_err"></p>
+            <div class="login_btns go_login_parent">
+                <button class="register_btn">Sign up</button>
+                
+            </div>
+            
+        </form>
+
+        <div class="entrance_btns go_login_parent">
+            <button class="login_btn"> Go Login</button>
+        </div>
+
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="./register.js"></script>
+</body>
+</html>
